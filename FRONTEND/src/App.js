@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { Grid, makeStyles } from "@material-ui/core";
 
 import Welcome, { ErrorPage } from "./component/Welcome";
+import Meeting from "./component/Meetings/App"
 import Navbar from "./component/Navbar";
 import Login from "./component/Login";
 import Logout from "./component/Logout";
@@ -74,6 +75,9 @@ function App() {
               </Route>
               <Route exact path="/logout">
                 <Logout />
+              </Route>
+              <Route exact path="/course">
+                <Meeting />
               </Route>
               <Route exact path="/home">
                 <Home />
