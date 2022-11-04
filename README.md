@@ -16,6 +16,6 @@ of cost and use it in further process of employment.
 
 #technology_used
 
-HTML5,CSS3, Bootstrap5
+HTML5,CSS3,Bootstrap5,
 React/Redux,
 Node/Express & MongoDB
