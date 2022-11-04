@@ -82,11 +82,18 @@ const Navbar = (props) => {
                 <Button color="inherit" onClick={() => handleClick("/profile")}>
                   <Typography style={{ fontSize: "18px" }}>Profile</Typography>
                 </Button>
-                <Button color="inherit" onClick={() => handleClick("/logout")}>
-                  <Typography style={{ fontSize: "18px" }}>Logout</Typography>
-                </Button>
                 <Button color="inherit" onClick={() => handleClick("/Appr")}>
                   <Typography style={{ fontSize: "18px" }}>Resume</Typography>
+                </Button>
+                <Button color="inherit">
+                {/* <Typography style={{ fontSize: "18px" }}> */}
+                  <a href="https://freecodecamp.org/" style={{ color: "white" ,textDecoration:"none", fontSize: "18px"}}>
+                    Course
+                  </a>
+                {/* </Typography> */}
+              </Button>
+                <Button color="inherit" onClick={() => handleClick("/logout")}>
+                  <Typography style={{ fontSize: "18px" }}>Logout</Typography>
                 </Button>
               </>
             )
@@ -104,28 +111,28 @@ const Navbar = (props) => {
                 </Typography>
               </Button>
               <Button color="inherit">
-                <Typography style={{ fontSize: "18px" }}>
+                {/* <Typography style={{ fontSize: "18px" }}> */}
                   <a
                     href="https://jobhunt-interviewprep.netlify.app/"
-                    style={{ color: "white" }}
+                    style={{ color: "white" ,textDecoration:"none", fontSize: "18px"}}
                   >
                     Interview
                   </a>
-                </Typography>
+                {/* </Typography> */}
               </Button>
               <Button color="inherit">
-                <Typography style={{ fontSize: "18px" }}>
-                  <a href="https://techcrunch.com/" style={{ color: "white" }}>
+                {/* <Typography style={{ fontSize: "18px" }}> */}
+                  <a href="https://techcrunch.com/" style={{ color: "white" ,textDecoration:"none", fontSize: "18px"}}>
                     News
                   </a>
-                </Typography>
+                {/* </Typography> */}
               </Button>
               <Button color="inherit">
-                <Typography style={{ fontSize: "18px" }}>
-                  <a href="http://localhost:3001/" style={{ color: "white" }}>
+                {/* <Typography style={{ fontSize: "18px" }}> */}
+                  <a href="http://localhost:3001/" style={{ color: "white" ,textDecoration:"none", fontSize: "18px" }}>
                     Meeting
                   </a>
-                </Typography>
+                {/* </Typography> */}
               </Button>
 
               {/* <Button color="inherit" onClick={() => handleClick("/Appc")}>
