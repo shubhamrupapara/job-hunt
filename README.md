@@ -1,21 +1,53 @@
-# job-hunt
+# JobHunt
 
-It is a website from which one can recruit the
-professionals, also one get proper guidance as well resources
-to get their dream job. 
+Welcome to JobHunt, Your one-stop employment website constructed with state-of-the-art MERN stack technology. Seamlessly connect recruiters and applicants through secure login, enhance interviews with video chat, craft impressive resumes, and manage job postings effortlessly. Streamlining the job search process has never been easier..! 📜🔍
+
+## Features
+
+- User Authentication (Recruiter/Applicant login)
+- Video Chat
+- Resume Building
+- Jobs Management (Create, Update, Delete)
+- Dashboard (Separate views for recruiters and applicants)
+- User Profiles
+- Analytics and Reporting
+- Responsive Design
+- Security (HTTPS, data protection)
+
+## Technology used
+
+- ReactJS
+- NodeJS
+- Express
+- MongoDB
+- Redux
+
+## To run locally on your machine
+
+### Clone the repo to your machine
+
+```
+git clone https://github.com/shubhamrupapara/job-hunt.git
+```
 
 
-It is the bridge between recuriters and professionals ,also
-we are mentor and guide for our users to achieve their dream
-job as we provide all necessary features to get employment as
-per need .
+### Install Dependencies (frontend & backend)
 
-Also it is providing video calling feature inbuilt in our web
-app , so recruiter can talk with professional easily, professional can create their resume free
-of cost and use it in further process of employment.
+```
+cd BACKEND
+npm install
+cd FRONTEND
+npm install
+```
 
-#technology_used
+# Running the application
 
-HTML5,CSS3,Bootstrap5,
-React/Redux,
-Node/Express & MongoDB
+```
+# Run frontend (:3000) & backend (:5000)
+npm start
+
+# Run backend only
+npm start
+```
+
+
